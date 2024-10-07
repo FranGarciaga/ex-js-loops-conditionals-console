@@ -76,20 +76,18 @@ console.log(result)
 let value = "1";
 
 let tipo = value === "string"
-? "Es un numero"
 ? "Es un string"
-: "No es ni numero ni string"
+: "Es un numero"
+
 
 
 //BUCLES
 
 //Ejercicio 9: Imprime en consola una lista del 0 al 10 con el bucle for
 
-for (let i = 0; i<= 10; i++){
-    console.log(i);
+for (let i = 0; i <= 10; i++) {
+    console.log(1)
 }
-
-
 //Ejercicio 10: Con un bucle for in imprime en pantalla todos los nombres, apellidos y su aporte a la sociedad de las programadoras de la historia contenidas en el array llamado 'programmers', Deberás imprimir el índice y la información de cada una de ellas de la siguiente manera: '0: Ada Lovelace, su aporte fue la máquina analítica'.
 
 const programmers = [
@@ -115,13 +113,14 @@ const programmers = [
   },
 ];
 
-//Escribe tu código aquí
+
+
 
 //Ejercicio 11: Con un bucle for of imprime en consola "Hola, mi nombre es ... " y reemplaza los tres puntos con cada nombre del array dado.
 
-const names = ["Rocío", "Lola", "Antía", "Laura", "Noelia"];
+let names = ["Rocío", "Lola", "Antía", "Laura", "Noelia"];
 
-//Escribe tu código aquí
+
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
@@ -129,4 +128,4 @@ const names = ["Rocío", "Lola", "Antía", "Laura", "Noelia"];
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
-//Escribe tu código aquí
+//Escribe tu código aqui
